@@ -1,0 +1,25 @@
+h3{
+    color: gold;
+    font-weight: 900;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+h4{
+   margin-bottom: 0px; 
+   font-weight: 800;
+}
+.section{
+    display: flex;
+    
+}
+.skill{
+    align-items: center;
+
+}
+.edu-exp{
+    align-items: center;
+    margin-left: 40px;
+    
+}

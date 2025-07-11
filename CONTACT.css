@@ -1,0 +1,169 @@
+.contact-card{
+    display: flex;
+    background-color: gold;
+    border: 5px solid black;
+    border-radius: 40px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20%;
+    margin-top: 10%; 
+    width: 50%;
+    box-shadow: 0 5px 5px gold;
+    
+    
+}
+.image{
+    width: 100px;
+    height: 10%;
+    border-radius: 50px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    justify-content: center;
+
+
+}
+
+.name{
+    font-size: 35px;
+    font-weight: bolder;
+    color: black;
+    margin-bottom: 45px;    
+    padding-top: 10%; 
+    padding-bottom: 5%;
+
+    
+}
+body{
+    
+    background-color: black;
+    justify-content: center;
+}
+i{
+    color: gold;
+    margin-left: 20%;
+}
+b, a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+p{
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.tel-container:hover{
+    cursor: pointer;
+}
+
+.tel-container, .linkedin-img, .mail, .whatsapp{
+    display: inline-flex;
+    gap: 5px
+
+}
+
+.tel-container img, .linkedin-img img, .mail img, .whatsapp img{
+    width: 30px;
+}
+
+.mail img{
+    height: 35px;
+}
+
+.linkedin-img img{
+ height: 30px;
+}
+
+.whatsapp{
+    margin-top: -15px;
+}
+
+.all:hover {
+    transform: translateX(20px);
+    transition-duration: 0.2s;
+
+}
+
+.text:hover{
+    color: rgb(94, 94, 122);
+}
+
+.profile{
+    width: 250px;
+    height: 250px;
+    border-radius: 55%;
+    object-fit: cover;
+    border: 3px solid gold;
+    margin-top: 70%;
+    animation-name: rotator;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    justify-content: center;
+    
+    
+}
+.platform{
+    margin-left: 8%;
+}
+@media (max-width:390) {
+
+.contact-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 16px;
+    padding: 16px;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.profile{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid gold;
+}
+.name{
+    font-size: 18px;
+    text-align: center;
+}
+.phone all, 
+.linkedin all,
+.email all,
+.whatsapp all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    gap: 8px;
+}
+.phone img,
+.linkedin-img,
+.email img,
+.whatsapp img {
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+}
+.text{
+    font-size: 13px;
+    word-break: break-word;
+    width: 100%;
+}
+.platform{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+}
+
